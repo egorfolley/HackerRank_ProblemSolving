@@ -15,6 +15,8 @@ def balanced_sum(arr: list):
         string
             YES or NO depends on calculations
     '''    
+    ### Long solution:
+    #__________________
     # first, last = 0, len(arr) - 1
     # middle = n//2
     
@@ -35,6 +37,8 @@ def balanced_sum(arr: list):
 
     #     if left_sum == right_sum: is_balanced = True
     #     if left_unbalanced and right_unbalanced: break
+    #__________________
+    ### Quick solution:
 
     total_sum = sum(arr)
 
